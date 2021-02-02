@@ -1,0 +1,1510 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-01T06:24:01.594Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3011619000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 540000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 542875000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 595021000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 496633000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Adding to Favourite",
+        "description": "",
+        "id": "dashboard--user-redirecting-to-dashboard-after-login-with-valid-credentials;adding-to-favourite",
+        "after": [
+          {
+            "result": {
+              "duration": 133425000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 85799000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 68670000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.FWVypv}, goog:chromeOptions: {debuggerAddress: localhost:45873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5494394414a4e002ff1b280cf3ae48ae\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\n\tat com.legato.stepdefinitions.DashboardStepDefinitions.tearDown(DashboardStepDefinitions.java:29)\n",
+              "duration": 11268000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 87736000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3607321000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User redirects to login page",
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.user_redirects_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//*[@id\u003d\"sec_main\"]/div/div/div/div[1]/h5\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat com.legato.stepdefinitions.DashboardStepDefinitions.user_able_to_see_the_information_displayed_about_matches(DashboardStepDefinitions.java:46)\n\tat ✽.user able to see the information displayed about matches(file:///home/ubuntu/Desktop/book-app/src/test/java/com/legato/features/Dashboard.feature:5)\n",
+              "duration": 16554414000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user able to see the information displayed about matches",
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.user_able_to_see_the_information_displayed_about_matches()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1799000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user click add to favorite button it should add to favorite",
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.user_click_add_to_favorite_button_it_should_add_to_favorite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user should see the promt message as added successfully",
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.user_should_see_the_promt_message_as_added_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-01T06:24:27.475Z",
+        "before": [
+          {
+            "result": {
+              "duration": 622896000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 520922000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 542564000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 520693000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 522998000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Adding to Recommendation",
+        "description": "",
+        "id": "dashboard--user-redirecting-to-dashboard-after-login-with-valid-credentials;adding-to-recommendation",
+        "after": [
+          {
+            "result": {
+              "duration": 80952000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 108640000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 79821000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.GLECeW}, goog:chromeOptions: {debuggerAddress: localhost:39587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: fc6fdb001842fdf906c5103064ca0e17\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\n\tat com.legato.stepdefinitions.DashboardStepDefinitions.tearDown(DashboardStepDefinitions.java:29)\n",
+              "duration": 15668000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 83160000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3767291000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User redirects to login page",
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.user_redirects_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//*[@id\u003d\"sec_main\"]/div/div/div/div[1]/h5\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat com.legato.stepdefinitions.DashboardStepDefinitions.user_able_to_see_the_information_displayed_about_matches(DashboardStepDefinitions.java:46)\n\tat ✽.user able to see the information displayed about matches(file:///home/ubuntu/Desktop/book-app/src/test/java/com/legato/features/Dashboard.feature:12)\n",
+              "duration": 7542701000,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "user able to see the information displayed about matches",
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.user_able_to_see_the_information_displayed_about_matches()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user click add to recommendation button it should add to recommendation",
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.user_click_add_to_recommendation_button_it_should_add_to_recommendation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 972000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user should see the promt message as added successfully",
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.user_should_see_the_promt_message_as_added_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Dashboard, user redirecting to Dashboard after login with valid credentials",
+    "description": "",
+    "id": "dashboard--user-redirecting-to-dashboard-after-login-with-valid-credentials",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/legato/features/Dashboard.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-01T06:24:41.939Z",
+        "before": [
+          {
+            "result": {
+              "duration": 662500000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 725640000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 500258000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 496512000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 519434000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "displaying the faviourite list iteams",
+        "description": "",
+        "id": "faviourite-page--user-gets-redirected-to-favourie-page;displaying-the-faviourite-list-iteams",
+        "after": [
+          {
+            "result": {
+              "duration": 69586000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 81491000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.kVCTXR}, goog:chromeOptions: {debuggerAddress: localhost:34437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d7f03cd70cea82aa5036035d33dc0b7c\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\n\tat com.legato.stepdefinitions.FavouriteStepDefinitions.tearDown(FavouriteStepDefinitions.java:31)\n",
+              "duration": 12643000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 108437000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 82775000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.kVCTXR}, goog:chromeOptions: {debuggerAddress: localhost:34437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d7f03cd70cea82aa5036035d33dc0b7c\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)\n\tat com.legato.stepdefinitions.FavouriteStepDefinitions.user_has_to_redirects_to_login_page(FavouriteStepDefinitions.java:41)\n\tat ✽.User has to redirects to login page(file:///home/ubuntu/Desktop/book-app/src/test/java/com/legato/features/Favourite.feature:4)\n",
+              "duration": 3570536000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User has to redirects to login page",
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.user_has_to_redirects_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user click add to favorite button in the home page",
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.user_click_add_to_favorite_button_in_the_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user click on favourite",
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.user_click_on_favourite()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "should display the list of favourite",
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.should_display_the_list_of_favourite()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-01T06:24:48.826Z",
+        "before": [
+          {
+            "result": {
+              "duration": 553455000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 503838000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 552527000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 621344000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 598500000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "displaying the pro",
+        "description": "",
+        "id": "faviourite-page--user-gets-redirected-to-favourie-page;displaying-the-pro",
+        "after": [
+          {
+            "result": {
+              "duration": 108004000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 70592000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.sAEvcR}, goog:chromeOptions: {debuggerAddress: localhost:40781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: ff13962162cacee0dcf32d01614e9699\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\n\tat com.legato.stepdefinitions.FavouriteStepDefinitions.tearDown(FavouriteStepDefinitions.java:31)\n",
+              "duration": 7449000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.2On8yd}, goog:chromeOptions: {debuggerAddress: localhost:34715}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5d4bf44ef19aeffef1a187b6a91adf13\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\n\tat com.legato.stepdefinitions.DashboardStepDefinitions.tearDown(DashboardStepDefinitions.java:29)\n",
+              "duration": 5222000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 79158000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.sAEvcR}, goog:chromeOptions: {debuggerAddress: localhost:40781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: ff13962162cacee0dcf32d01614e9699\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)\n\tat com.legato.stepdefinitions.FavouriteStepDefinitions.user_has_to_redirects_to_login_page(FavouriteStepDefinitions.java:41)\n\tat ✽.User has to redirects to login page(file:///home/ubuntu/Desktop/book-app/src/test/java/com/legato/features/Favourite.feature:10)\n",
+              "duration": 3528969000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "User has to redirects to login page",
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.user_has_to_redirects_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user click add to favorite button in home page",
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.user_click_add_to_favorite_button_in_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user should see error message",
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.user_should_see_error_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "should display the list of favourite",
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.should_display_the_list_of_favourite()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Faviourite page, User gets redirected to favourie page",
+    "description": "",
+    "id": "faviourite-page--user-gets-redirected-to-favourie-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/legato/features/Favourite.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-01T06:24:55.504Z",
+        "before": [
+          {
+            "result": {
+              "duration": 627142000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 618889000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 593128000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 532161000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 478903000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User Login with the valid",
+        "description": "",
+        "id": "login-page--user-trying-to-login-with-valid-and-invalid-credentials;user-login-with-the-valid",
+        "after": [
+          {
+            "result": {
+              "duration": 113349000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67435000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 73581000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 78551000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 68990000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3283183000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user gets redirect to the login page",
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.user_gets_redirect_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149036000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the username and password",
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.user_enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3071005000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click the submit button in the page",
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.click_the_submit_button_in_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3009312000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user has to login successfully",
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.user_has_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82623000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User redirect to home page",
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.user_redirect_to_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-01T06:25:08.405Z",
+        "before": [
+          {
+            "result": {
+              "duration": 553837000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 501794000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 630412000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 538340000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 549501000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Users can login in the login page with username and password",
+        "description": "",
+        "id": "login-page--user-trying-to-login-with-valid-and-invalid-credentials;users-can-login-in-the-login-page-with-username-and-password",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.EBEFRp}, goog:chromeOptions: {debuggerAddress: localhost:32815}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: bcb32606b6483e2b33c7e134e856a9d9\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\n\tat com.legato.stepdefinitions.LoginStepDefinitions.tearDown(LoginStepDefinitions.java:30)\n",
+              "duration": 3077000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 87766000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 71098000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 80430000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 72499000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3281929000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user gets redirect to the login page",
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.user_gets_redirect_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141938000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter the username as aa@gmail.com and password as aa123 in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aa@gmail.com",
+                  "offset": 27
+                },
+                {
+                  "val": "aa123",
+                  "offset": 56
+                }
+              ],
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.user_enter_the_username_as_preethi_gmail_com_and_password_as_preethi_in_the_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3079511000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click the submit button in the page",
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.click_the_submit_button_in_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3008434000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user has to login successfully",
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.user_has_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.EBEFRp}, goog:chromeOptions: {debuggerAddress: localhost:32815}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: bcb32606b6483e2b33c7e134e856a9d9\n*** Element info: {Using\u003did, value\u003dlink_logout}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat com.legato.stepdefinitions.LoginStepDefinitions.user_redirect_to_home_page(LoginStepDefinitions.java:64)\n\tat ✽.User redirect to home page(file:///home/ubuntu/Desktop/book-app/src/test/java/com/legato/features/Login.feature:15)\n",
+              "duration": 4346000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "User redirect to home page",
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.user_redirect_to_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login page, User trying to login with valid and invalid credentials",
+    "description": "",
+    "id": "login-page--user-trying-to-login-with-valid-and-invalid-credentials",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/legato/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-01T06:25:21.033Z",
+        "before": [
+          {
+            "result": {
+              "duration": 484908000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 624352000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 589405000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 521577000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 515005000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User able to Add the details successfully",
+        "description": "",
+        "id": ";user-able-to-add-the-details-successfully",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.lD0aPz}, goog:chromeOptions: {debuggerAddress: localhost:35979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 80aaa984788feb6b904deb73e7173dac\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\n\tat com.legato.stepdefinitions.LoginStepDefinitions.tearDown(LoginStepDefinitions.java:30)\n",
+              "duration": 5455000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.F5nud8}, goog:chromeOptions: {debuggerAddress: localhost:41873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 19f040786fd2a6860ae6d59d762d4164\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\n\tat com.legato.stepdefinitions.SearchStepDefinitions.tearDown(SearchStepDefinitions.java:29)\n",
+              "duration": 3567000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.vRXaSl}, goog:chromeOptions: {debuggerAddress: localhost:35747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: bd9170015132af8ef887892b9f14a425\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\n\tat com.legato.stepdefinitions.FavouriteStepDefinitions.tearDown(FavouriteStepDefinitions.java:31)\n",
+              "duration": 3265000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.L3zf7S}, goog:chromeOptions: {debuggerAddress: localhost:45759}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 2bcf3b414cd5f8c3d29cecddf9cf42d9\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\n\tat com.legato.stepdefinitions.DashboardStepDefinitions.tearDown(DashboardStepDefinitions.java:29)\n",
+              "duration": 3231000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 91794000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3307506000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User gets redirtect to the singUp page",
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.user_gets_redirtect_to_the_sing_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 464189000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has to give fname, lname, Email, password and Confirm password",
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.user_has_to_give_fname_lname_email_password_and_confirm_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (513, 531)\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.STIhgg}, goog:chromeOptions: {debuggerAddress: localhost:33049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 96e7979d4c062486c1b611c1e3fdac51\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat com.legato.stepdefinitions.RegisterStepDefinitions.click_the_submit_button(RegisterStepDefinitions.java:57)\n\tat ✽.Click the submit button(file:///home/ubuntu/Desktop/book-app/src/test/java/com/legato/features/Register.feature:7)\n",
+              "duration": 1124965000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Click the submit button",
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.click_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User should see the successfully added promt message",
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.user_should_see_the_successfully_added_promt_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-01T06:25:28.791Z",
+        "before": [
+          {
+            "result": {
+              "duration": 639284000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 613460000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 489667000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 570222000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 555215000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User able to Add the details successfully in the register",
+        "description": "",
+        "id": ";user-able-to-add-the-details-successfully-in-the-register",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.dqDmiI}, goog:chromeOptions: {debuggerAddress: localhost:44011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5bb715b344012a66d76f4647279904e7\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\n\tat com.legato.stepdefinitions.LoginStepDefinitions.tearDown(LoginStepDefinitions.java:30)\n",
+              "duration": 3720000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 136663000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 112093000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 76571000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 86959000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3217576000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User gets redirtect to the singUp page",
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.user_gets_redirtect_to_the_sing_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 447938000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter the fname as john lname as john Email as john@gmail.com password as john and Confirm password as john in the fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "john",
+                  "offset": 24
+                },
+                {
+                  "val": "john",
+                  "offset": 38
+                },
+                {
+                  "val": "john@gmail.com",
+                  "offset": 52
+                },
+                {
+                  "val": "john",
+                  "offset": 79
+                },
+                {
+                  "val": "john",
+                  "offset": 108
+                }
+              ],
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.user_enter_the_fname_as_bindu_lname_as_ch_email_as_bindu_gmail_com_password_as_bindu_and_confirm_password_as_bindu_in_the_fields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (513, 538)\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.Iw4mmp}, goog:chromeOptions: {debuggerAddress: localhost:37839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 74a24b428e31e778665be7b9437282a4\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat com.legato.stepdefinitions.RegisterStepDefinitions.click_the_submit_button(RegisterStepDefinitions.java:57)\n\tat ✽.Click the submit button(file:///home/ubuntu/Desktop/book-app/src/test/java/com/legato/features/Register.feature:13)\n",
+              "duration": 1093063000,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "Click the submit button",
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.click_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User should see the successfully added promt message",
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.user_should_see_the_successfully_added_promt_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  In Order to manage portal user should be able to create a account by using name, email, password and confirm password in Register page",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/legato/features/Register.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-01T06:25:36.849Z",
+        "before": [
+          {
+            "result": {
+              "duration": 729754000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 502577000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 577019000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 564240000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 531318000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Searching by match name",
+        "description": "",
+        "id": "searching-by-match-name;searching-by-match-name",
+        "after": [
+          {
+            "result": {
+              "duration": 68720000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.LoginStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.Rxn3EG}, goog:chromeOptions: {debuggerAddress: localhost:40441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 2b2a87c46b29e070468a70c3c7f777f3\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\n\tat com.legato.stepdefinitions.SearchStepDefinitions.tearDown(SearchStepDefinitions.java:29)\n",
+              "duration": 6820000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 78670000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.FavouriteStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 78673000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.DashboardStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 71620000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.legato.stepdefinitions.RegisterStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d79.0.3945.117)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-39-35\u0027, ip: \u0027172.31.39.35\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-133-generic\u0027, java.version: \u002711.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.Rxn3EG}, goog:chromeOptions: {debuggerAddress: localhost:40441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 2b2a87c46b29e070468a70c3c7f777f3\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)\n\tat com.legato.stepdefinitions.SearchStepDefinitions.user_redirects_to_the_login_page(SearchStepDefinitions.java:39)\n\tat ✽.User redirects to the login page(file:///home/ubuntu/Desktop/book-app/src/test/java/com/legato/features/Search.feature:4)\n",
+              "duration": 3468119000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User redirects to the login page",
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.user_redirects_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User Enter the match name in the search field",
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.user_enter_the_match_name_in_the_search_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "click the seach button",
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.click_the_seach_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user see the list of matches with the name",
+            "match": {
+              "location": "com.legato.stepdefinitions.SearchStepDefinitions.user_see_the_list_of_matches_with_the_name()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Searching by match name",
+    "description": "",
+    "id": "searching-by-match-name",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/legato/features/Search.feature",
+    "tags": []
+  }
+]
